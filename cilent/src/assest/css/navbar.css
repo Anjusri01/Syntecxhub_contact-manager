@@ -1,0 +1,36 @@
+/*Navbar.jsx*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    background-color: #7594d1;
+    color: #220505;
+    padding-inline: 20px;
+}
+.navbar-left{
+    display: flex;
+    align-items: center;
+}
+.navbar-brand{
+    font-size: 1.8rem;
+    text-decoration: none;
+    margin-right: 25px;
+    color: #e1efed;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+}
+.navbar-link{
+    text-decoration: none;
+    color: #dee6de;
+    margin-left: 25px;
+    font-size: 1.2rem;
+}
+.navbar-link:hover{
+    text-decoration: underline;
+}
